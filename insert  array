@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int arr[10]={10,13,14,15,16,17,18};
+
+      for(int i=6;i>=3;i--)
+      {
+          arr[i+1]=arr[i];
+          arr[3]=12;
+
+      }
+      printf("%d",arr[3]);
+      return 0;
+}
